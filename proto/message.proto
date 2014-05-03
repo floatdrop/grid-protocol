@@ -1,11 +1,9 @@
-package Grid;
-
 message Message {
     enum Type {
         UNIVERSAL = 0;
         WELCOME = 1;
     }
     optional Type type = 1 [default = UNIVERSAL];
-    optional string destanation = 2;
+    optional string dest = 2;
     required string source = 3;
 }

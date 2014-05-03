@@ -4,7 +4,7 @@
   "description": "Protocol for client-to-client communication",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   },
   "devDependencies": {
     "gulp-exec": "^2.0.1",
-    "gulp-ext": "^1.0.0"
+    "gulp-ext": "^1.0.0",
+    "mocha": "^1.18.2",
+    "should": "^3.3.1"
   }
 }

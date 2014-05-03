@@ -4,12 +4,9 @@ var ProtoBuf = require('protobufjs');
 var message = require('./proto/message.json');
 
 function load(object) {
-    var builder = ProtoBuf.newBuilder();
-    builder.create(object);
-    builder.reset();
-    return builder;
+    return ProtoBuf.loadJson(JSON.stringify(object));
 }
 
 module.exports = {
-    Message: load(message)
+    Message: load(message).build('Message')
 };

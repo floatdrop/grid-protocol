@@ -1,5 +1,5 @@
 {
-    "package": "Grid",
+    "package": null,
     "messages": [
         {
             "name": "Message",
@@ -16,7 +16,7 @@
                 {
                     "rule": "optional",
                     "type": "string",
-                    "name": "destanation",
+                    "name": "dest",
                     "id": 2,
                     "options": {}
                 },
