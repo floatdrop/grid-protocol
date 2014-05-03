@@ -1,0 +1,22 @@
+{
+  "name": "grid-protocol",
+  "version": "0.0.0",
+  "description": "Protocol for client-to-client communication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/floatdrop/grid-protocol.git"
+  },
+  "author": "Vsevolod Strukchinsky <floatdrop@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/floatdrop/grid-protocol/issues"
+  },
+  "homepage": "https://github.com/floatdrop/grid-protocol",
+  "dependencies": {
+    "protobufjs": "^2.0.5"
+  } 
+}

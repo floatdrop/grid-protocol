@@ -1,0 +1,55 @@
+{
+    "package": null,
+    "messages": [
+        {
+            "name": "Message",
+            "fields": [
+                {
+                    "rule": "optional",
+                    "type": "Type",
+                    "name": "type",
+                    "id": 1,
+                    "options": {
+                        "default": "UNIVERSAL"
+                    }
+                },
+                {
+                    "rule": "optional",
+                    "type": "string",
+                    "name": "destanation",
+                    "id": 2,
+                    "options": {}
+                },
+                {
+                    "rule": "required",
+                    "type": "string",
+                    "name": "source",
+                    "id": 3,
+                    "options": {}
+                }
+            ],
+            "enums": [
+                {
+                    "name": "Type",
+                    "values": [
+                        {
+                            "name": "UNIVERSAL",
+                            "id": 0
+                        },
+                        {
+                            "name": "WELCOME",
+                            "id": 1
+                        }
+                    ],
+                    "options": {}
+                }
+            ],
+            "messages": [],
+            "options": {}
+        }
+    ],
+    "enums": [],
+    "imports": [],
+    "options": {},
+    "services": []
+}
