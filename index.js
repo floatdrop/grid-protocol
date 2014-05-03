@@ -1,7 +1,7 @@
 'use strict';
 
 var ProtoBuf = require('protobufjs');
-var message = require('./proto/message.proto.json');
+var message = require('./proto/message.json');
 
 function load(object) {
     var builder = ProtoBuf.newBuilder();
