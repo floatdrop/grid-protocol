@@ -5,7 +5,7 @@
             "name": "Message",
             "fields": [
                 {
-                    "rule": "optional",
+                    "rule": "required",
                     "type": "Type",
                     "name": "type",
                     "id": 1,
@@ -14,17 +14,24 @@
                     }
                 },
                 {
-                    "rule": "optional",
+                    "rule": "required",
                     "type": "string",
                     "name": "dest",
                     "id": 2,
                     "options": {}
                 },
                 {
-                    "rule": "required",
+                    "rule": "optional",
                     "type": "string",
                     "name": "source",
                     "id": 3,
+                    "options": {}
+                },
+                {
+                    "rule": "optional",
+                    "type": "string",
+                    "name": "payload",
+                    "id": 4,
                     "options": {}
                 }
             ],

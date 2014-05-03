@@ -3,7 +3,8 @@ message Message {
         UNIVERSAL = 0;
         WELCOME = 1;
     }
-    optional Type type = 1 [default = UNIVERSAL];
-    optional string dest = 2;
-    required string source = 3;
+    required Type type = 1 [default = UNIVERSAL];
+    required string dest = 2;
+    optional string source = 3;
+    optional string payload = 4;
 }
