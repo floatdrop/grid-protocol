@@ -1,6 +1,6 @@
 {
   "name": "grid-protocol",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Protocol for client-to-client communication",
   "main": "index.js",
   "scripts": {
