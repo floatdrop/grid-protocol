@@ -2,6 +2,8 @@ message Message {
     enum Type {
         UNIVERSAL = 0;
         WELCOME = 1;
+        CONNECTED = 2;
+        DISCONNECTED = 3;
     }
     required Type type = 1 [default = UNIVERSAL];
     required string dest = 2;
