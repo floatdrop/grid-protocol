@@ -20,8 +20,6 @@
     "pson": "^1.0.0"
   },
   "devDependencies": {
-    "gulp-exec": "^2.0.1",
-    "gulp-ext": "^1.0.0",
     "mocha": "^1.18.2",
     "should": "^3.3.1"
   }
