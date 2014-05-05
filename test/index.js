@@ -8,11 +8,12 @@ it('should require protocols without errors', function () {
     require('../');
 });
 
-it('should create Welcome and decode message', function () {
+it('should encode and decode Welcome message', function () {
     var Message = require('../').Messages;
-    var msg = new Message.Welcome('id');
-    should.exist(msg);
-    msg = Message.decode(msg);
-    console.log(msg);
-    //msg.id.should.eql('id');
+
+    var encoded = new Message.Welcome('id');
+    should.exist(encoded);
+
+    var decoded = Message.decode(encoded.compact());
+    decoded.id.should.eql('id');
 });
