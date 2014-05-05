@@ -1,0 +1,13 @@
+[
+  "WELCOME",
+  "TRACE",
+  "LOG",
+  "CONNECTED",
+  "DISCONNECTED",
+  "src",
+  "dest",
+  "type",
+  "id",
+  "payload",
+  "position"
+]

@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/floatdrop/grid-protocol",
   "dependencies": {
-    "protobufjs": "^2.0.5"
+    "pson": "^1.0.0"
   },
   "devDependencies": {
     "gulp-exec": "^2.0.1",
