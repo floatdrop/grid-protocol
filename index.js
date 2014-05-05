@@ -3,8 +3,10 @@
 var PSON = require('pson');
 var pson = new PSON.StaticPair(require('./dictionary.json'));
 
-function Message(dest, data) {
-    return pson.encode({ dest: dest, data: data });
+function Message(dest, data, src) {
+    var payload = { dest: dest, data: data };
+    if (src) { payload.src = src; }
+    return pson.encode(payload);
 }
 
 Message.Welcome = function Welcome(id) {
